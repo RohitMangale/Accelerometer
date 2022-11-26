@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/uibg6"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/almendra"
+        android:padding="5dp"
+        android:text="Accelerometer"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/corn"
+        android:elevation="10dp"
+
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"
+        >
+
+        <TextView
+            android:id="@+id/sensorX"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:padding="5dp"
+            android:text="Sensor value X"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/corn"
+        android:elevation="10dp"
+
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:id="@+id/sensorY"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:padding="5dp"
+            android:text="Sensor value Y"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@drawable/corn"
+
+        android:elevation="10dp"
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:id="@+id/sensorZ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/akaya_telivigala"
+            android:padding="5dp"
+            android:text="Sensor value Z"
+            android:textAlignment="center"
+            android:textSize="30dp" />
+
+    </RelativeLayout>
+</LinearLayout>
